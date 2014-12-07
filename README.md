@@ -31,8 +31,7 @@ After source project is selected the destination project combobox is enabled:
 
 ![](pic3.png)
 
-FormattedIDs of moved TestCase are listed as they are moved, and the list is updated
-in realtime until all TestCases are moved.
+Click Move. List of moved TestCases is updated in real time until it's done.
 
 ![](pic4.png)
 
