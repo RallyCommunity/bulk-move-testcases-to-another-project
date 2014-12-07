@@ -106,7 +106,7 @@ Ext.define('CustomApp', {
             filters: [
                 {
                     property: 'LastUpdateDate',
-                    operator: '>',
+                    operator: '<',
                     value: isoDate
                 }
             ],
