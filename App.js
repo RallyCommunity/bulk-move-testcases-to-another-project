@@ -67,8 +67,6 @@ Ext.define('CustomApp', {
                         that._move();
                     }
                 }
-
-
             ]
         });
         this.add(c);
@@ -78,7 +76,6 @@ Ext.define('CustomApp', {
         this._date = date;
         Ext.getCmp('html-datepick').update(this._date + '<br /> selected');
         
-
         //if a user selected another date after source project combobox was selected, refresh data in testcases-string:
         if(this._source){
             this._onSourceSelected(this._source);
@@ -172,6 +169,4 @@ Ext.define('CustomApp', {
             scope: this
         });
     }
-
-
 });
